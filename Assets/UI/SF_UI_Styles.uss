@@ -1,0 +1,52 @@
+.unity-foldout__toggle {
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    border-left-color: rgb(75, 67, 53);
+    border-right-color: rgb(75, 67, 53);
+    border-top-color: rgb(75, 67, 53);
+    border-bottom-color: rgb(75, 67, 53);
+}
+
+.unity-foldout__toggle>.unity-toggle__input>#unity-checkmark
+{   
+    width: 80%;
+    height: 100%;
+    background-image: url('/Assets/UI/Overlay/Toolbox.png');
+    -unity-background-image-tint-color: rgba(255,255,255,255);
+}
+.unity-foldout__toggle>.unity-toggle__input:checked>#unity-checkmark
+{
+    background-image: url('/Assets/UI/Overlay/Toolbox_Open.png');
+    -unity-background-image-tint-color: rgba(255,255,255,255);
+}
+.unity-foldout__toggle:focus>.unity-toggle__input>#unity-checkmark
+{
+    background-image: url('/Assets/UI/Overlay/Toolbox.png');
+    -unity-background-image-tint-color: rgba(255,255,255,255);
+}
+.unity-foldout__toggle:focus>.unity-toggle__input:checked>#unity-checkmark
+{
+    background-image: url('/Assets/UI/Overlay/Toolbox_Open.png');
+    -unity-background-image-tint-color: rgba(255,255,255,255);
+}
+.unity-foldout__toggle:active>.unity-toggle__input>#unity-checkmark
+{
+    background-image: url('/Assets/UI/Overlay/Toolbox.png');
+    -unity-background-image-tint-color: rgba(255,255,255,255);
+}
+.unity-foldout__toggle:active>.unity-toggle__input:checked>#unity-checkmark
+{
+    background-image: url('/Assets/UI/Overlay/Toolbox_Open.png');
+    -unity-background-image-tint-color: rgba(255,255,255,255);
+}
+
+.unity-foldout__content {
+    width: 80%;
+    height: 100%;
+}
+
+.unity-button {
+    font-size: 500%;
+    flex-grow: 1;
+}
