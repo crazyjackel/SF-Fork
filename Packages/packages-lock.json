@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.neuecc.unirx": {
+      "version": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "284d5c50d3f1ddd9fa7df3d382ea904732a9c2ff"
+    },
+    "com.sandolkakosdigital.unitypackagemanagerutilities": {
+      "version": "https://github.com/sandolkakos/unity-package-manager-utilities.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ed39e0470ffd50b3eeca4c8d01ea486e5427408e"
+    },
     "com.unity.collab-proxy": {
       "version": "1.9.0",
       "depth": 0,
@@ -50,6 +64,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.textcore": {
+      "version": "1.0.0-preview.3",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.textmeshpro": {
       "version": "3.0.6",
       "depth": 0,
@@ -79,6 +100,39 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.ui": {
+      "version": "1.0.0-preview.18",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielementsnative": "1.0.0",
+        "com.unity.textcore": "1.0.0-preview.3"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ui.builder": {
+      "version": "1.0.0-preview.18",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "io.crazyjackel.redmoon-depinjector": {
+      "version": "https://github.com/crazyjackel/redmoon-depInjector.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b5fac5bf9f9c4e95410982e119f90923068e1b29"
+    },
+    "io.crazyjackel.redmoon-reactivekit": {
+      "version": "https://github.com/crazyjackel/redmoon-reactiveKit.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ui": "1.0.0-preview.18"
+      },
+      "hash": "6e5c47659cc96643f3ca7d6ff8ddbb3b1c7ba9d2"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
